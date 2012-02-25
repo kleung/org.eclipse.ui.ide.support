@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Compress
+Bundle-SymbolicName: org.apache.commons.compress
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.apache.commons.compress.Activator
+Export-Package: org.apache.commons.compress.compressors,
+ org.apache.commons.compress.compressors.bzip2,
+ org.apache.commons.compress.compressors.gzip
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
